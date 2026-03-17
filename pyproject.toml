@@ -1,0 +1,19 @@
+[project]
+name = "dbt-cdn-detach-utils"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Kier Davis", email = "kier.davis@businessandtrade.gov.uk" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "pyyaml>=6.0.3",
+]
+
+[project.scripts]
+get-aws-profile = "dbt_cdn_detach_utils.get_aws_profile:main"
+
+[build-system]
+requires = ["uv_build>=0.9.28,<0.10.0"]
+build-backend = "uv_build"
