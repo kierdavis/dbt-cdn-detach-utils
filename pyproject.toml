@@ -14,6 +14,7 @@ dependencies = [
 [project.scripts]
 backup-tfstate = "dbt_cdn_detach_utils.backup_tfstate:main"
 get-aws-profile = "dbt_cdn_detach_utils.get_aws_profile:main"
+get-env-vars = "dbt_cdn_detach_utils.get_env_vars:main"
 
 [build-system]
 requires = ["uv_build>=0.9.28,<0.10.0"]
