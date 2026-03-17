@@ -12,6 +12,7 @@ dependencies = [
 ]
 
 [project.scripts]
+backup-tfstate = "dbt_cdn_detach_utils.backup_tfstate:main"
 get-aws-profile = "dbt_cdn_detach_utils.get_aws_profile:main"
 
 [build-system]
