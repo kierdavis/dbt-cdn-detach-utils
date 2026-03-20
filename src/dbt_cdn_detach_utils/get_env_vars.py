@@ -2,6 +2,8 @@ import argparse
 import shlex
 import yaml
 
+from .common import get_profile_name_from_account_id
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("env")
